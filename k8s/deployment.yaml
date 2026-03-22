@@ -18,7 +18,7 @@ spec:
       - name: mysql
         image: mysql:8.0
         ports:
-        - containerPort: 3309
+        - containerPort: 3306
         resources:
           requests:
             memory: "256Mi"
