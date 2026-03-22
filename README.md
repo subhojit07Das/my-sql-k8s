@@ -73,7 +73,7 @@ mysql-on-kubernetes/
 ```
    Connect to the new pod:
 ```bash
-   kubectl exec -it  -- mysql -u root -p
+   kubectl exec -it <pod_name> -- mysql -u root -p
 ```
    Your data is still there! ✅
 
