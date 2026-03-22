@@ -38,7 +38,7 @@ mysql-on-kubernetes/
 ### Steps
 
 1. Clone the repo
-   git clone https://github.com/YOUR-USERNAME/mysql-on-kubernetes.git
+   git clone https://github.com/subhojit07Das/my-sql-k8s.git
    cd mysql-on-kubernetes
 
 2. Create your own secrets
@@ -84,3 +84,4 @@ One command to bring everything up, one command to tear it down.
 
 ## 👨‍💻 Author
 Subhojit Das
+GitHub: https://github.com/subhojit07Das
