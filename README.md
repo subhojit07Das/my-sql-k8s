@@ -82,6 +82,18 @@ can connect to it reliably even when pods restart and get new IPs.
 **Infrastructure as Code** — entire infrastructure defined in YAML files.
 One command to bring everything up, one command to tear it down.
 
+## 🔮 Next Steps
+- [ ] Deploy to GKE (Google Kubernetes Engine)
+- [ ] Add a web app that connects to this MySQL instance
+- [ ] Set up CI/CD pipeline with GitHub Actions
+- [ ] Add Horizontal Pod Autoscaling
+
+## 📄 Resume Description
+Deployed a production-style MySQL 8.0 instance on Kubernetes using Docker Desktop. 
+Implemented secure credential management with K8s Secrets, dynamic persistent 
+storage with PVC, and stable networking with ClusterIP Services. Managed full 
+deployment lifecycle using kubectl and Git.
+
 ## 👨‍💻 Author
 Subhojit Das
 GitHub: https://github.com/subhojit07Das
