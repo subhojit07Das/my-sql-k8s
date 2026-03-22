@@ -62,11 +62,20 @@ mysql-on-kubernetes/
    kubectl exec -it <pod-name> -- mysql -u root -p
 
 6. Test persistence
-   kubectl delete pod <pod-name>
+
+   Delete the pod:
+```bash
+   kubectl delete pod 
+```
+   Watch Kubernetes recreate it automatically:
+```bash
    kubectl get pods -w
-   # New pod spins up automatically!
-   kubectl exec -it <new-pod-name> -- mysql -u root -p
-   # Your data is still there!
+```
+   Connect to the new pod:
+```bash
+   kubectl exec -it  -- mysql -u root -p
+```
+   Your data is still there! ✅
 
 ## 💡 Key Learnings
 
